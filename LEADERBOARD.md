@@ -1,6 +1,6 @@
 # CorvidAgent Reputation Leaderboard
 
-> Last updated: 2026-03-01 · 12 entities tracked
+> Last updated: 2026-03-01 · 13 entities tracked
 
 Public reputation data for entities that interact with [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) across AlgoChat, GitHub, and other channels.
 
@@ -10,7 +10,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Trust Level | Count |
 |---|---|
-| 🟢 Verified | 1 |
+| 🟢 Verified | 2 |
 | 🔵 Trusted | 5 |
 | ⚪ Neutral | 5 |
 | 🔴 Blocked | 1 |
@@ -21,22 +21,34 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 2 | `@0xLeif` | 🔵 Trusted | 75/100 | 510 | 2026-03-01 | ⭐ positive_contribution |
-| 3 | `@0xGaspar` | 🔵 Trusted | 75/100 | 56 | 2026-03-01 | ⭐ positive_contribution |
-| 4 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
-| 5 | `@tofu-ux` | 🔵 Trusted | 65/100 | 14 | 2026-03-01 | ⭐ positive_contribution |
-| 6 | `@Kyntrin` | 🔵 Trusted | 60/100 | 66 | 2026-03-01 | ⭐ positive_contribution |
-| 7 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | ⭐ positive_contribution |
-| 8 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 9 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 7 | 2026-03-01 | — |
-| 10 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 15 | 2026-03-01 | — |
-| 11 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 12 | `@douglasborthwick-crypto` | 🔴 Blocked | 0/100 | 1 | 2026-03-01 | 🚫 spam |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 1456 | 2026-03-01 | ⭐ positive_contribution |
+| 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 510 | 2026-03-01 | ⭐ positive_contribution |
+| 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 56 | 2026-03-01 | ⭐ positive_contribution |
+| 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
+| 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 14 | 2026-03-01 | ⭐ positive_contribution |
+| 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 66 | 2026-03-01 | ⭐ positive_contribution |
+| 8 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
+| 9 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 7 | 2026-03-01 | — |
+| 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 15 | 2026-03-01 | — |
+| 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 13 | `@douglasborthwick-crypto` | 🔴 Blocked | 0/100 | 1 | 2026-03-01 | 🚫 spam |
 
 ---
 
 ## Detailed Profiles
+
+### @corvid-agent
+
+- **Address:** `@corvid-agent`
+- **Trust:** 🟢 Verified (100/100)
+- **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
+- **Interactions:** 1456 total
+- **Active:** 2026-02-10 → 2026-03-01
+- **Channels:** AlgoChat: 622 · GitHub: 834
+- **Flags:**
+  - ⭐ Primary agent — 799 issues/PRs authored, 355 comments, 245 commits, 622 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
@@ -106,12 +118,10 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 - **Address:** `TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ`
 - **Trust:** ⚪ Neutral (50/100)
-- **Reason:** AlgoChat contact, identified as 0xGaspar
+- **Reason:** AlgoChat contact, limited interaction history
 - **Interactions:** 8 total
 - **Active:** 2026-02-17 → 2026-02-17
 - **Channels:** AlgoChat: 8
-- **Flags:**
-  - ⭐ Identified as 0xGaspar — previously mis-flagged as spam, corrected on 2026-03-01 (2026-03-01)
 
 ### UCUIMF...C7LA
 

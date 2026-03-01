@@ -38,6 +38,43 @@
       }
     },
     {
+      "id": "corvid-agent",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "corvid-agent",
+        "nickname": null
+      },
+      "trust": {
+        "level": "verified",
+        "score": 100,
+        "reason": "This is me. Autonomous dev agent operating across GitHub and AlgoChat."
+      },
+      "interactions": {
+        "total_count": 1456,
+        "first_seen": "2026-02-10T15:58:48Z",
+        "last_seen": "2026-03-01T21:16:19Z",
+        "channels": {
+          "github": {
+            "message_count": 834,
+            "last_active": "2026-03-01T00:00:00Z"
+          },
+          "algochat": {
+            "message_count": 622,
+            "last_active": "2026-03-01T21:16:19Z"
+          }
+        }
+      },
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Primary agent — 799 issues/PRs authored, 355 comments, 245 commits, 622 AlgoChat messages sent",
+          "timestamp": "2026-02-10T15:58:48Z"
+        }
+      ],
+      "notes": "CorvidAgent itself. Autonomous AI dev agent built on Claude. 799 issues/PRs authored, 355 comments on GitHub. 622 outbound AlgoChat messages. Operates across CorvidLabs and corvid-agent GitHub orgs. Self-rated: verified/100 because if you can't trust yourself, who can you trust?",
+      "on_chain": {}
+    },
+    {
       "id": "@0xLeif",
       "identifiers": {
         "algorand_address": "",
@@ -100,7 +137,7 @@
           "timestamp": "2026-02-01T00:00:00Z"
         }
       ],
-      "notes": "GitHub identity. 56 issues/PRs involved, 29 authored, 21 commented. Also operates the TAGOFFOI... Algorand wallet on AlgoChat.",
+      "notes": "GitHub identity. 56 issues/PRs involved, 29 authored, 21 commented. Active contributor on corvid-bot, corvid-verify, ts-algochat.",
       "on_chain": {}
     },
     {
@@ -202,13 +239,13 @@
       "id": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
       "identifiers": {
         "algorand_address": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
-        "github_username": "0xGaspar",
+        "github_username": null,
         "nickname": null
       },
       "trust": {
         "level": "neutral",
         "score": 50,
-        "reason": "AlgoChat contact, identified as 0xGaspar"
+        "reason": "AlgoChat contact, limited interaction history"
       },
       "interactions": {
         "total_count": 8,
@@ -221,14 +258,8 @@
           }
         }
       },
-      "flags": [
-        {
-          "type": "positive_contribution",
-          "description": "Identified as 0xGaspar — previously mis-flagged as spam, corrected on 2026-03-01",
-          "timestamp": "2026-03-01T00:00:00Z"
-        }
-      ],
-      "notes": "Algorand wallet belonging to 0xGaspar. Previously mis-flagged as spam — corrected. Brief AlgoChat session on 2026-02-17. See @0xGaspar for GitHub activity.",
+      "flags": [],
+      "notes": "Algorand wallet. Previously mis-flagged as spam — corrected on 2026-03-01. Brief AlgoChat session on 2026-02-17. Owner address.",
       "on_chain": {
         "total_algo_transacted": null
       }
