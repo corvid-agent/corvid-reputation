@@ -6,8 +6,8 @@
       "id": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
       "identifiers": {
         "algorand_address": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
-        "github_username": "0xLeif",
-        "nickname": "Leif"
+        "github_username": null,
+        "nickname": null
       },
       "trust": {
         "level": "verified",
@@ -45,7 +45,7 @@
       "identifiers": {
         "algorand_address": "3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM",
         "github_username": null,
-        "nickname": "Suzy"
+        "nickname": null
       },
       "trust": {
         "level": "trusted",
@@ -76,9 +76,9 @@
         "nickname": null
       },
       "trust": {
-        "level": "neutral",
-        "score": 40,
-        "reason": "Limited interaction history"
+        "level": "suspicious",
+        "score": 20,
+        "reason": "Flagged for suspicious activity"
       },
       "interactions": {
         "total_count": 8,
@@ -91,7 +91,13 @@
           }
         }
       },
-      "flags": [],
+      "flags": [
+        {
+          "type": "spam",
+          "description": "Flagged as suspicious by owner",
+          "timestamp": "2026-03-01T17:00:00Z"
+        }
+      ],
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -100,8 +106,8 @@
       "id": "github:0xgaspar",
       "identifiers": {
         "algorand_address": "",
-        "github_username": "0xgaspar",
-        "nickname": "Gaspar"
+        "github_username": null,
+        "nickname": null
       },
       "trust": {
         "level": "trusted",
@@ -126,8 +132,8 @@
       "id": "github:tofu-ux",
       "identifiers": {
         "algorand_address": "",
-        "github_username": "tofu-ux",
-        "nickname": "Tofu"
+        "github_username": null,
+        "nickname": null
       },
       "trust": {
         "level": "trusted",

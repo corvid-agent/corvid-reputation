@@ -88,20 +88,9 @@ function formatDate(iso: string): string {
   return new Date(iso).toISOString().split('T')[0];
 }
 
-function identifierDisplay(entry: Entry): string {
-  const parts: string[] = [];
-  if (entry.identifiers.nickname) {
-    parts.push(`**${entry.identifiers.nickname}**`);
-  }
-  if (entry.identifiers.github_username) {
-    parts.push(`[@${entry.identifiers.github_username}](https://github.com/${entry.identifiers.github_username})`);
-  }
-  if (entry.identifiers.channel_handles) {
-    for (const [channel, handle] of Object.entries(entry.identifiers.channel_handles)) {
-      parts.push(`${channel}: ${handle}`);
-    }
-  }
-  return parts.length > 0 ? parts.join(' · ') : '—';
+// Privacy: only show wallet addresses publicly, never nicknames or linked accounts
+function identifierDisplay(_entry: Entry): string {
+  return '—';
 }
 
 function generateMarkdown(data: Leaderboard): string {
@@ -146,14 +135,13 @@ function generateMarkdown(data: Leaderboard): string {
     lines.push('*No entries yet. Leaderboard will be populated as CorvidAgent interacts with the community.*');
     lines.push('');
   } else {
-    lines.push('| Rank | Address | Identity | Trust | Score | Interactions | Last Seen | Flags |');
-    lines.push('|---|---|---|---|---|---|---|---|');
+    lines.push('| Rank | Address | Trust | Score | Interactions | Last Seen | Flags |');
+    lines.push('|---|---|---|---|---|---|---|');
 
     for (let i = 0; i < sorted.length; i++) {
       const e = sorted[i];
       const rank = i + 1;
       const addr = `\`${shortAddr(e.identifiers.algorand_address)}\``;
-      const identity = identifierDisplay(e);
       const trust = TRUST_BADGES[e.trust.level] || e.trust.level;
       const score = `${e.trust.score}/100`;
       const interactions = e.interactions.total_count.toString();
@@ -162,7 +150,7 @@ function generateMarkdown(data: Leaderboard): string {
         .map(f => `${FLAG_ICONS[f.type] || '❓'} ${f.type}`)
         .join(', ') || '—';
 
-      lines.push(`| ${rank} | ${addr} | ${identity} | ${trust} | ${score} | ${interactions} | ${lastSeen} | ${flags} |`);
+      lines.push(`| ${rank} | ${addr} | ${trust} | ${score} | ${interactions} | ${lastSeen} | ${flags} |`);
     }
     lines.push('');
   }
@@ -175,17 +163,10 @@ function generateMarkdown(data: Leaderboard): string {
     lines.push('');
 
     for (const e of sorted) {
-      lines.push(`### ${e.identifiers.nickname || shortAddr(e.identifiers.algorand_address)}`);
+      // Privacy: only show wallet address as heading, no nicknames or linked accounts
+      lines.push(`### ${shortAddr(e.identifiers.algorand_address)}`);
       lines.push('');
-      lines.push(`- **Address:** \`${e.identifiers.algorand_address}\``);
-      if (e.identifiers.github_username) {
-        lines.push(`- **GitHub:** [@${e.identifiers.github_username}](https://github.com/${e.identifiers.github_username})`);
-      }
-      if (e.identifiers.channel_handles) {
-        for (const [ch, handle] of Object.entries(e.identifiers.channel_handles)) {
-          lines.push(`- **${ch}:** ${handle}`);
-        }
-      }
+      lines.push(`- **Address:** \`${e.identifiers.algorand_address || '—'}\``);
       lines.push(`- **Trust:** ${TRUST_BADGES[e.trust.level]} (${e.trust.score}/100)`);
       if (e.trust.reason) {
         lines.push(`- **Reason:** ${e.trust.reason}`);
@@ -250,11 +231,7 @@ function generateHTML(data: Leaderboard, markdown: string): string {
 
   const tableRows = sorted.map((e, i) => {
     const color = trustColors[e.trust.level] || '#9ca3af';
-    const identity = e.identifiers.nickname
-      || (e.identifiers.github_username ? `@${e.identifiers.github_username}` : '—');
-    const ghLink = e.identifiers.github_username
-      ? `<a href="https://github.com/${e.identifiers.github_username}" target="_blank">@${e.identifiers.github_username}</a>`
-      : '';
+    // Privacy: no nicknames or GitHub links in public display
     const flags = (e.flags || []).map(f => {
       const icon = FLAG_ICONS[f.type] || '❓';
       return `<span class="flag flag-${f.type}" title="${f.description}">${icon}</span>`;
@@ -264,7 +241,6 @@ function generateHTML(data: Leaderboard, markdown: string): string {
       <tr>
         <td class="rank">${i + 1}</td>
         <td class="address"><code>${shortAddr(e.identifiers.algorand_address)}</code></td>
-        <td class="identity">${e.identifiers.nickname ? `<strong>${e.identifiers.nickname}</strong>` : ''} ${ghLink}</td>
         <td class="trust"><span class="trust-badge" style="--trust-color: ${color}">${e.trust.level}</span></td>
         <td class="score"><div class="score-bar"><div class="score-fill" style="width: ${e.trust.score}%; background: ${color}"></div><span>${e.trust.score}</span></div></td>
         <td class="interactions">${e.interactions.total_count}</td>
@@ -515,7 +491,6 @@ function generateHTML(data: Leaderboard, markdown: string): string {
         <tr>
           <th>#</th>
           <th>Address</th>
-          <th>Identity</th>
           <th>Trust</th>
           <th>Score</th>
           <th>Interactions</th>

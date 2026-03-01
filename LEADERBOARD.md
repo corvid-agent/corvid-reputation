@@ -12,28 +12,27 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 |---|---|
 | 🟢 Verified | 1 |
 | 🔵 Trusted | 3 |
-| ⚪ Neutral | 1 |
+| 🟡 Suspicious | 1 |
 
 ---
 
 ## Leaderboard
 
-| Rank | Address | Identity | Trust | Score | Interactions | Last Seen | Flags |
-|---|---|---|---|---|---|---|---|
-| 1 | `EPXE4X...56CE` | **Leif** · [@0xLeif](https://github.com/0xLeif) | 🟢 Verified | 95/100 | 2886 | 2026-03-01 | ⭐ positive_contribution |
-| 2 | `—` | **Gaspar** · [@0xgaspar](https://github.com/0xgaspar) | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
-| 3 | `3JQ2KW...ECLM` | **Suzy** | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
-| 4 | `—` | **Tofu** · [@tofu-ux](https://github.com/tofu-ux) | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
-| 5 | `TAGOFF...B3EQ` | — | ⚪ Neutral | 40/100 | 8 | 2026-02-17 | — |
+| Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
+|---|---|---|---|---|---|---|
+| 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2886 | 2026-03-01 | ⭐ positive_contribution |
+| 2 | `—` | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
+| 3 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
+| 4 | `—` | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
+| 5 | `TAGOFF...B3EQ` | 🟡 Suspicious | 20/100 | 8 | 2026-02-17 | 🚫 spam |
 
 ---
 
 ## Detailed Profiles
 
-### Leif
+### EPXE4X...56CE
 
 - **Address:** `EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE`
-- **GitHub:** [@0xLeif](https://github.com/0xLeif)
 - **Trust:** 🟢 Verified (95/100)
 - **Reason:** Core contributor, extensive AlgoChat history, consistent positive interactions
 - **Interactions:** 2886 total
@@ -42,16 +41,15 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Flags:**
   - ⭐ AlgoChat protocol co-developer, extensive testing and feedback (2026-02-10)
 
-### Gaspar
+### —
 
-- **Address:** ``
-- **GitHub:** [@0xgaspar](https://github.com/0xgaspar)
+- **Address:** `—`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Previous contributor on allowlist, active GitHub presence
 - **Interactions:** 0 total
 - **Active:** 2026-02-01 → 2026-03-01
 
-### Suzy
+### 3JQ2KW...ECLM
 
 - **Address:** `3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM`
 - **Trust:** 🔵 Trusted (70/100)
@@ -60,10 +58,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Active:** 2026-02-28 → 2026-02-28
 - **Channels:** AlgoChat: 22
 
-### Tofu
+### —
 
-- **Address:** ``
-- **GitHub:** [@tofu-ux](https://github.com/tofu-ux)
+- **Address:** `—`
 - **Trust:** 🔵 Trusted (65/100)
 - **Reason:** Previous contributor on allowlist
 - **Interactions:** 0 total
@@ -72,11 +69,13 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 ### TAGOFF...B3EQ
 
 - **Address:** `TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ`
-- **Trust:** ⚪ Neutral (40/100)
-- **Reason:** Limited interaction history
+- **Trust:** 🟡 Suspicious (20/100)
+- **Reason:** Flagged for suspicious activity
 - **Interactions:** 8 total
 - **Active:** 2026-02-17 → 2026-02-17
 - **Channels:** AlgoChat: 8
+- **Flags:**
+  - 🚫 Flagged as suspicious by owner (2026-03-01)
 
 ---
 
