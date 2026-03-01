@@ -41,6 +41,58 @@
       }
     },
     {
+      "id": "@0xLeif",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "0xLeif",
+        "nickname": null
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 75,
+        "reason": "Core contributor, active GitHub presence"
+      },
+      "interactions": {
+        "total_count": 7,
+        "first_seen": "2026-02-10T15:58:48Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 7,
+            "last_active": "2026-03-01T00:00:00Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "@0xGaspar",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "0xGaspar",
+        "nickname": null
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 75,
+        "reason": "Previous contributor on allowlist, active GitHub presence"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-02-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": "2026-03-01T00:00:00Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
       "id": "3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM",
       "identifiers": {
         "algorand_address": "3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM",
@@ -69,67 +121,7 @@
       }
     },
     {
-      "id": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
-      "identifiers": {
-        "algorand_address": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
-        "github_username": null,
-        "nickname": null
-      },
-      "trust": {
-        "level": "suspicious",
-        "score": 20,
-        "reason": "Flagged for suspicious activity"
-      },
-      "interactions": {
-        "total_count": 8,
-        "first_seen": "2026-02-17T00:38:53Z",
-        "last_seen": "2026-02-17T00:39:41Z",
-        "channels": {
-          "algochat": {
-            "message_count": 8,
-            "last_active": "2026-02-17T00:39:41Z"
-          }
-        }
-      },
-      "flags": [
-        {
-          "type": "spam",
-          "description": "Flagged as suspicious by owner",
-          "timestamp": "2026-03-01T17:00:00Z"
-        }
-      ],
-      "on_chain": {
-        "total_algo_transacted": null
-      }
-    },
-    {
-      "id": "github:0xgaspar",
-      "identifiers": {
-        "algorand_address": "",
-        "github_username": "0xgaspar",
-        "nickname": null
-      },
-      "trust": {
-        "level": "trusted",
-        "score": 75,
-        "reason": "Previous contributor on allowlist, active GitHub presence"
-      },
-      "interactions": {
-        "total_count": 0,
-        "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
-        "channels": {
-          "github": {
-            "message_count": 0,
-            "last_active": "2026-03-01T00:00:00Z"
-          }
-        }
-      },
-      "flags": [],
-      "on_chain": {}
-    },
-    {
-      "id": "github:tofu-ux",
+      "id": "@tofu-ux",
       "identifiers": {
         "algorand_address": "",
         "github_username": "tofu-ux",
@@ -143,6 +135,192 @@
       "interactions": {
         "total_count": 0,
         "first_seen": "2026-02-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "@Kyntrin",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "Kyntrin",
+        "nickname": null
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 60,
+        "reason": "Known collaborator"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
+      "identifiers": {
+        "algorand_address": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
+        "github_username": "0xGaspar",
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 50,
+        "reason": "AlgoChat contact, identified as 0xGaspar"
+      },
+      "interactions": {
+        "total_count": 8,
+        "first_seen": "2026-02-17T00:38:53Z",
+        "last_seen": "2026-02-17T00:39:41Z",
+        "channels": {
+          "algochat": {
+            "message_count": 8,
+            "last_active": "2026-02-17T00:39:41Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {
+        "total_algo_transacted": null
+      }
+    },
+    {
+      "id": "UCUIMF3XON5YONE2IXFU7Y4A7O32SWL4XXZ7ZYKRN2J7PGTZW3PTS7C7LA",
+      "identifiers": {
+        "algorand_address": "UCUIMF3XON5YONE2IXFU7Y4A7O32SWL4XXZ7ZYKRN2J7PGTZW3PTS7C7LA",
+        "github_username": null,
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 50,
+        "reason": "No messages, no interaction history"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "algochat": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {
+        "total_algo_transacted": null
+      }
+    },
+    {
+      "id": "dependabot[bot]",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "dependabot[bot]",
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 50,
+        "reason": "Official GitHub dependency bot"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "github-advanced-security[bot]",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "github-advanced-security[bot]",
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 50,
+        "reason": "Official GitHub security scanner"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "Copilot",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "Copilot",
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 50,
+        "reason": "GitHub AI code reviewer"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "@douglasborthwick-crypto",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "douglasborthwick-crypto",
+        "nickname": null
+      },
+      "trust": {
+        "level": "suspicious",
+        "score": 15,
+        "reason": "Very new account (Jan 2026), crypto-themed name, low engagement"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-03-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {

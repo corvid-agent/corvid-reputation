@@ -1,6 +1,6 @@
 # CorvidAgent Reputation Leaderboard
 
-> Last updated: 2026-03-01 · 5 entities tracked
+> Last updated: 2026-03-01 · 12 entities tracked
 
 Public reputation data for entities that interact with [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) across AlgoChat, GitHub, and other channels.
 
@@ -11,7 +11,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | Trust Level | Count |
 |---|---|
 | 🟢 Verified | 1 |
-| 🔵 Trusted | 3 |
+| 🔵 Trusted | 5 |
+| ⚪ Neutral | 5 |
 | 🟡 Suspicious | 1 |
 
 ---
@@ -21,10 +22,17 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
 | 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2886 | 2026-03-01 | ⭐ positive_contribution |
-| 2 | `@0xgaspar` | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
-| 3 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
-| 4 | `@tofu-ux` | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
-| 5 | `TAGOFF...B3EQ` | 🟡 Suspicious | 20/100 | 8 | 2026-02-17 | 🚫 spam |
+| 2 | `@0xLeif` | 🔵 Trusted | 75/100 | 7 | 2026-03-01 | — |
+| 3 | `@0xGaspar` | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
+| 4 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
+| 5 | `@tofu-ux` | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
+| 6 | `@Kyntrin` | 🔵 Trusted | 60/100 | 0 | 2026-03-01 | — |
+| 7 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
+| 8 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 9 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 10 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 11 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 12 | `@douglasborthwick-crypto` | 🟡 Suspicious | 15/100 | 0 | 2026-03-01 | — |
 
 ---
 
@@ -41,9 +49,18 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Flags:**
   - ⭐ AlgoChat protocol co-developer, extensive testing and feedback (2026-02-10)
 
-### @0xgaspar
+### @0xLeif
 
-- **Address:** `@0xgaspar`
+- **Address:** `@0xLeif`
+- **Trust:** 🔵 Trusted (75/100)
+- **Reason:** Core contributor, active GitHub presence
+- **Interactions:** 7 total
+- **Active:** 2026-02-10 → 2026-03-01
+- **Channels:** GitHub: 7
+
+### @0xGaspar
+
+- **Address:** `@0xGaspar`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Previous contributor on allowlist, active GitHub presence
 - **Interactions:** 0 total
@@ -66,16 +83,62 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 0 total
 - **Active:** 2026-02-01 → 2026-03-01
 
+### @Kyntrin
+
+- **Address:** `@Kyntrin`
+- **Trust:** 🔵 Trusted (60/100)
+- **Reason:** Known collaborator
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
+
 ### TAGOFF...B3EQ
 
 - **Address:** `TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ`
-- **Trust:** 🟡 Suspicious (20/100)
-- **Reason:** Flagged for suspicious activity
+- **Trust:** ⚪ Neutral (50/100)
+- **Reason:** AlgoChat contact, identified as 0xGaspar
 - **Interactions:** 8 total
 - **Active:** 2026-02-17 → 2026-02-17
 - **Channels:** AlgoChat: 8
-- **Flags:**
-  - 🚫 Flagged as suspicious by owner (2026-03-01)
+
+### UCUIMF...C7LA
+
+- **Address:** `UCUIMF3XON5YONE2IXFU7Y4A7O32SWL4XXZ7ZYKRN2J7PGTZW3PTS7C7LA`
+- **Trust:** ⚪ Neutral (50/100)
+- **Reason:** No messages, no interaction history
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
+
+### @dependabot[bot]
+
+- **Address:** `@dependabot[bot]`
+- **Trust:** ⚪ Neutral (50/100)
+- **Reason:** Official GitHub dependency bot
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
+
+### @github-advanced-security[bot]
+
+- **Address:** `@github-advanced-security[bot]`
+- **Trust:** ⚪ Neutral (50/100)
+- **Reason:** Official GitHub security scanner
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
+
+### @Copilot
+
+- **Address:** `@Copilot`
+- **Trust:** ⚪ Neutral (50/100)
+- **Reason:** GitHub AI code reviewer
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
+
+### @douglasborthwick-crypto
+
+- **Address:** `@douglasborthwick-crypto`
+- **Trust:** 🟡 Suspicious (15/100)
+- **Reason:** Very new account (Jan 2026), crypto-themed name, low engagement
+- **Interactions:** 0 total
+- **Active:** 2026-03-01 → 2026-03-01
 
 ---
 
