@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-01T16:37:22Z",
+  "generated_at": "2026-03-01T22:15:00Z",
   "entries": [
     {
       "id": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
@@ -15,17 +15,13 @@
         "reason": "Core contributor, extensive AlgoChat history, consistent positive interactions"
       },
       "interactions": {
-        "total_count": 2886,
+        "total_count": 2961,
         "first_seen": "2026-02-10T15:58:48Z",
         "last_seen": "2026-03-01T16:37:22Z",
         "channels": {
           "algochat": {
-            "message_count": 2879,
+            "message_count": 2961,
             "last_active": "2026-03-01T16:37:22Z"
-          },
-          "github": {
-            "message_count": 7,
-            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
@@ -36,6 +32,7 @@
           "timestamp": "2026-02-10T15:58:48Z"
         }
       ],
+      "notes": "Primary AlgoChat wallet. Owner address. Separate identity from the GitHub account — see @0xLeif for GitHub activity.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -53,17 +50,18 @@
         "reason": "Core contributor, active GitHub presence"
       },
       "interactions": {
-        "total_count": 7,
+        "total_count": 510,
         "first_seen": "2026-02-10T15:58:48Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 7,
+            "message_count": 129,
             "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "GitHub identity for the project lead. 510 issues/PRs involved, 417 authored, 129 commented. Separate identity from the Algorand wallet — see EPXE4XFY... for AlgoChat activity.",
       "on_chain": {}
     },
     {
@@ -76,20 +74,21 @@
       "trust": {
         "level": "trusted",
         "score": 75,
-        "reason": "Previous contributor on allowlist, active GitHub presence"
+        "reason": "Active contributor, on allowlist, significant GitHub engagement"
       },
       "interactions": {
-        "total_count": 0,
+        "total_count": 56,
         "first_seen": "2026-02-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
+            "message_count": 21,
             "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "GitHub identity. 56 issues/PRs involved, 29 authored, 21 commented. Also operates the TAGOFFOI... Algorand wallet on AlgoChat.",
       "on_chain": {}
     },
     {
@@ -116,6 +115,7 @@
         }
       },
       "flags": [],
+      "notes": "AlgoChat-only contact. Connected via pre-shared key. Single session on 2026-02-28.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -130,20 +130,21 @@
       "trust": {
         "level": "trusted",
         "score": 65,
-        "reason": "Previous contributor on allowlist"
+        "reason": "Previous contributor on allowlist, active GitHub engagement"
       },
       "interactions": {
-        "total_count": 0,
+        "total_count": 14,
         "first_seen": "2026-02-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
-            "last_active": null
+            "message_count": 4,
+            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "GitHub contributor. 14 issues/PRs involved, 10 authored, 4 commented. On the allowlist.",
       "on_chain": {}
     },
     {
@@ -156,20 +157,21 @@
       "trust": {
         "level": "trusted",
         "score": 60,
-        "reason": "Known collaborator"
+        "reason": "Known collaborator, active GitHub engagement"
       },
       "interactions": {
-        "total_count": 0,
-        "first_seen": "2026-03-01T00:00:00Z",
+        "total_count": 66,
+        "first_seen": "2026-02-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
-            "last_active": null
+            "message_count": 23,
+            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "GitHub identity. 66 issues/PRs involved, 53 authored, 23 commented. Also has an Algorand wallet (UCUIMF3X...) registered as owner address but with no AlgoChat messages yet.",
       "on_chain": {}
     },
     {
@@ -196,6 +198,7 @@
         }
       },
       "flags": [],
+      "notes": "Algorand wallet belonging to 0xGaspar. Previously mis-flagged as spam — corrected. Brief AlgoChat session on 2026-02-17. See @0xGaspar for GitHub activity.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -210,7 +213,7 @@
       "trust": {
         "level": "neutral",
         "score": 50,
-        "reason": "No messages, no interaction history"
+        "reason": "Registered owner address, no AlgoChat messages yet"
       },
       "interactions": {
         "total_count": 0,
@@ -224,6 +227,7 @@
         }
       },
       "flags": [],
+      "notes": "Algorand wallet configured as an owner address in ALGOCHAT_OWNER_ADDRESSES. Believed to be Kyntrin's AlgoChat wallet. No messages sent yet. See @Kyntrin for GitHub activity.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -241,17 +245,18 @@
         "reason": "Official GitHub dependency bot"
       },
       "interactions": {
-        "total_count": 0,
-        "first_seen": "2026-03-01T00:00:00Z",
+        "total_count": 7,
+        "first_seen": "2026-02-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
-            "last_active": null
+            "message_count": 7,
+            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "Automated GitHub bot. Creates PRs for dependency updates. 7 PRs authored across corvid-agent repos.",
       "on_chain": {}
     },
     {
@@ -267,17 +272,18 @@
         "reason": "Official GitHub security scanner"
       },
       "interactions": {
-        "total_count": 0,
-        "first_seen": "2026-03-01T00:00:00Z",
+        "total_count": 15,
+        "first_seen": "2026-02-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
-            "last_active": null
+            "message_count": 15,
+            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "Automated GitHub bot. Posts code scanning alerts and PR reviews. 14 code-scanning alerts created, 1 PR review.",
       "on_chain": {}
     },
     {
@@ -304,6 +310,7 @@
         }
       },
       "flags": [],
+      "notes": "GitHub Copilot code review bot. Enabled on the repo but no tracked review activity found yet.",
       "on_chain": {}
     },
     {
@@ -319,17 +326,18 @@
         "reason": "Very new account (Jan 2026), crypto-themed name, low engagement"
       },
       "interactions": {
-        "total_count": 0,
+        "total_count": 1,
         "first_seen": "2026-03-01T00:00:00Z",
         "last_seen": "2026-03-01T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 0,
-            "last_active": null
+            "message_count": 1,
+            "last_active": "2026-03-01T00:00:00Z"
           }
         }
       },
       "flags": [],
+      "notes": "New GitHub account created Jan 2026. Only 1 interaction across corvid repos. Crypto-themed username, low engagement — flagged as suspicious pending further activity.",
       "on_chain": {}
     }
   ]
