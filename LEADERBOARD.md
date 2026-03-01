@@ -21,9 +21,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
 | 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2886 | 2026-03-01 | ⭐ positive_contribution |
-| 2 | `—` | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
+| 2 | `@0xgaspar` | 🔵 Trusted | 75/100 | 0 | 2026-03-01 | — |
 | 3 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
-| 4 | `—` | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
+| 4 | `@tofu-ux` | 🔵 Trusted | 65/100 | 0 | 2026-03-01 | — |
 | 5 | `TAGOFF...B3EQ` | 🟡 Suspicious | 20/100 | 8 | 2026-02-17 | 🚫 spam |
 
 ---
@@ -41,9 +41,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Flags:**
   - ⭐ AlgoChat protocol co-developer, extensive testing and feedback (2026-02-10)
 
-### —
+### @0xgaspar
 
-- **Address:** `—`
+- **Address:** `@0xgaspar`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Previous contributor on allowlist, active GitHub presence
 - **Interactions:** 0 total
@@ -58,9 +58,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Active:** 2026-02-28 → 2026-02-28
 - **Channels:** AlgoChat: 22
 
-### —
+### @tofu-ux
 
-- **Address:** `—`
+- **Address:** `@tofu-ux`
 - **Trust:** 🔵 Trusted (65/100)
 - **Reason:** Previous contributor on allowlist
 - **Interactions:** 0 total
