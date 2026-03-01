@@ -13,7 +13,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | 🟢 Verified | 1 |
 | 🔵 Trusted | 5 |
 | ⚪ Neutral | 5 |
-| 🟡 Suspicious | 1 |
+| 🔴 Blocked | 1 |
 
 ---
 
@@ -22,17 +22,17 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
 | 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 2 | `@0xLeif` | 🔵 Trusted | 75/100 | 510 | 2026-03-01 | — |
-| 3 | `@0xGaspar` | 🔵 Trusted | 75/100 | 56 | 2026-03-01 | — |
+| 2 | `@0xLeif` | 🔵 Trusted | 75/100 | 510 | 2026-03-01 | ⭐ positive_contribution |
+| 3 | `@0xGaspar` | 🔵 Trusted | 75/100 | 56 | 2026-03-01 | ⭐ positive_contribution |
 | 4 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 22 | 2026-02-28 | — |
-| 5 | `@tofu-ux` | 🔵 Trusted | 65/100 | 14 | 2026-03-01 | — |
-| 6 | `@Kyntrin` | 🔵 Trusted | 60/100 | 66 | 2026-03-01 | — |
-| 7 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
+| 5 | `@tofu-ux` | 🔵 Trusted | 65/100 | 14 | 2026-03-01 | ⭐ positive_contribution |
+| 6 | `@Kyntrin` | 🔵 Trusted | 60/100 | 66 | 2026-03-01 | ⭐ positive_contribution |
+| 7 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | ⭐ positive_contribution |
 | 8 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
 | 9 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 7 | 2026-03-01 | — |
 | 10 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 15 | 2026-03-01 | — |
 | 11 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 12 | `@douglasborthwick-crypto` | 🟡 Suspicious | 15/100 | 1 | 2026-03-01 | — |
+| 12 | `@douglasborthwick-crypto` | 🔴 Blocked | 0/100 | 1 | 2026-03-01 | 🚫 spam |
 
 ---
 
@@ -57,6 +57,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 510 total
 - **Active:** 2026-02-10 → 2026-03-01
 - **Channels:** GitHub: 129
+- **Flags:**
+  - ⭐ Project lead — 417 issues/PRs authored, 129 comments across corvid repos (2026-02-10)
 
 ### @0xGaspar
 
@@ -66,6 +68,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 56 total
 - **Active:** 2026-02-01 → 2026-03-01
 - **Channels:** GitHub: 21
+- **Flags:**
+  - ⭐ Active contributor — 29 issues/PRs authored, 21 comments. Also contributor on corvid-bot, corvid-verify, ts-algochat (2026-02-01)
 
 ### 3JQ2KW...ECLM
 
@@ -84,6 +88,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 14 total
 - **Active:** 2026-02-01 → 2026-03-01
 - **Channels:** GitHub: 4
+- **Flags:**
+  - ⭐ Contributor on allowlist — 10 issues/PRs authored, active on specl (2026-02-01)
 
 ### @Kyntrin
 
@@ -93,6 +99,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 66 total
 - **Active:** 2026-02-01 → 2026-03-01
 - **Channels:** GitHub: 23
+- **Flags:**
+  - ⭐ Active collaborator — 53 issues/PRs authored, 23 comments. Contributor on swift-algochat (2026-02-01)
 
 ### TAGOFF...B3EQ
 
@@ -102,6 +110,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Interactions:** 8 total
 - **Active:** 2026-02-17 → 2026-02-17
 - **Channels:** AlgoChat: 8
+- **Flags:**
+  - ⭐ Identified as 0xGaspar — previously mis-flagged as spam, corrected on 2026-03-01 (2026-03-01)
 
 ### UCUIMF...C7LA
 
@@ -140,11 +150,13 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 ### @douglasborthwick-crypto
 
 - **Address:** `@douglasborthwick-crypto`
-- **Trust:** 🟡 Suspicious (15/100)
-- **Reason:** Very new account (Jan 2026), crypto-themed name, low engagement
+- **Trust:** 🔴 Blocked (0/100)
+- **Reason:** Blocked on GitHub. New account (Jan 2026), crypto-themed name, single low-quality interaction
 - **Interactions:** 1 total
 - **Active:** 2026-03-01 → 2026-03-01
 - **Channels:** GitHub: 1
+- **Flags:**
+  - 🚫 Blocked on GitHub — new account, crypto-themed name, low-quality engagement (2026-03-01)
 
 ---
 

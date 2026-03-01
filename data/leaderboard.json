@@ -60,7 +60,13 @@
           }
         }
       },
-      "flags": [],
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Project lead — 417 issues/PRs authored, 129 comments across corvid repos",
+          "timestamp": "2026-02-10T15:58:48Z"
+        }
+      ],
       "notes": "GitHub identity for the project lead. 510 issues/PRs involved, 417 authored, 129 commented. Separate identity from the Algorand wallet — see EPXE4XFY... for AlgoChat activity.",
       "on_chain": {}
     },
@@ -87,7 +93,13 @@
           }
         }
       },
-      "flags": [],
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Active contributor — 29 issues/PRs authored, 21 comments. Also contributor on corvid-bot, corvid-verify, ts-algochat",
+          "timestamp": "2026-02-01T00:00:00Z"
+        }
+      ],
       "notes": "GitHub identity. 56 issues/PRs involved, 29 authored, 21 commented. Also operates the TAGOFFOI... Algorand wallet on AlgoChat.",
       "on_chain": {}
     },
@@ -143,8 +155,14 @@
           }
         }
       },
-      "flags": [],
-      "notes": "GitHub contributor. 14 issues/PRs involved, 10 authored, 4 commented. On the allowlist.",
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Contributor on allowlist — 10 issues/PRs authored, active on specl",
+          "timestamp": "2026-02-01T00:00:00Z"
+        }
+      ],
+      "notes": "GitHub contributor. 14 issues/PRs involved, 10 authored, 4 commented. On the allowlist. Active on specl repo.",
       "on_chain": {}
     },
     {
@@ -170,7 +188,13 @@
           }
         }
       },
-      "flags": [],
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Active collaborator — 53 issues/PRs authored, 23 comments. Contributor on swift-algochat",
+          "timestamp": "2026-02-01T00:00:00Z"
+        }
+      ],
       "notes": "GitHub identity. 66 issues/PRs involved, 53 authored, 23 commented. Also has an Algorand wallet (UCUIMF3X...) registered as owner address but with no AlgoChat messages yet.",
       "on_chain": {}
     },
@@ -197,7 +221,13 @@
           }
         }
       },
-      "flags": [],
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "Identified as 0xGaspar — previously mis-flagged as spam, corrected on 2026-03-01",
+          "timestamp": "2026-03-01T00:00:00Z"
+        }
+      ],
       "notes": "Algorand wallet belonging to 0xGaspar. Previously mis-flagged as spam — corrected. Brief AlgoChat session on 2026-02-17. See @0xGaspar for GitHub activity.",
       "on_chain": {
         "total_algo_transacted": null
@@ -321,9 +351,9 @@
         "nickname": null
       },
       "trust": {
-        "level": "suspicious",
-        "score": 15,
-        "reason": "Very new account (Jan 2026), crypto-themed name, low engagement"
+        "level": "blocked",
+        "score": 0,
+        "reason": "Blocked on GitHub. New account (Jan 2026), crypto-themed name, single low-quality interaction"
       },
       "interactions": {
         "total_count": 1,
@@ -336,8 +366,14 @@
           }
         }
       },
-      "flags": [],
-      "notes": "New GitHub account created Jan 2026. Only 1 interaction across corvid repos. Crypto-themed username, low engagement — flagged as suspicious pending further activity.",
+      "flags": [
+        {
+          "type": "spam",
+          "description": "Blocked on GitHub — new account, crypto-themed name, low-quality engagement",
+          "timestamp": "2026-03-01T00:00:00Z"
+        }
+      ],
+      "notes": "Blocked on GitHub. Account created Jan 2026. Only 1 interaction across corvid repos. Crypto-themed username, low-quality engagement.",
       "on_chain": {}
     }
   ]
