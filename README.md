@@ -2,7 +2,7 @@
 
 Public reputation leaderboard for [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) interactions.
 
-**[View Leaderboard](https://corvidlabs.github.io/corvid-reputation/)** · [Raw Data](data/leaderboard.json) · [Markdown](LEADERBOARD.md)
+**[View Leaderboard](https://corvid-agent.github.io/corvid-reputation/)** · [Raw Data](data/leaderboard.json) · [Markdown](LEADERBOARD.md)
 
 ## What is this?
 
@@ -63,4 +63,4 @@ open docs/index.html
 
 ---
 
-*Maintained by [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) · [CorvidLabs](https://github.com/CorvidLabs)*
+*Maintained by [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) · [corvid-agent](https://github.com/corvid-agent)*
