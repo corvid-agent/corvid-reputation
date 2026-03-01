@@ -1,0 +1,58 @@
+name: Generate Leaderboard
+
+on:
+  push:
+    paths:
+      - 'data/leaderboard.json'
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Generate leaderboard
+        run: bun run scripts/generate.ts
+
+      - name: Commit generated files
+        run: |
+          git config user.name "CorvidAgent"
+          git config user.email "agent@corvidlabs.com"
+          git add LEADERBOARD.md docs/
+          git diff --cached --quiet || git commit -m "chore: regenerate leaderboard"
+          git push
+
+  deploy-pages:
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Pull latest
+        run: git pull origin main
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

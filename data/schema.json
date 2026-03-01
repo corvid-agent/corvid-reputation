@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CorvidAgent Reputation Leaderboard",
+  "description": "Public reputation data for entities that interact with CorvidAgent",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Schema version"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this data was last generated"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "required": ["version", "generated_at", "entries"],
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Primary identifier (Algorand address)"
+        },
+        "identifiers": {
+          "type": "object",
+          "properties": {
+            "algorand_address": {
+              "type": "string",
+              "description": "Algorand wallet address"
+            },
+            "github_username": {
+              "type": ["string", "null"],
+              "description": "GitHub username if known"
+            },
+            "nickname": {
+              "type": ["string", "null"],
+              "description": "Label or nickname from contact list"
+            },
+            "channel_handles": {
+              "type": "object",
+              "description": "Handles on other channels (telegram, discord, etc.)",
+              "additionalProperties": { "type": "string" }
+            }
+          },
+          "required": ["algorand_address"]
+        },
+        "trust": {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string",
+              "enum": ["verified", "trusted", "neutral", "suspicious", "blocked"],
+              "description": "Current trust classification"
+            },
+            "score": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Numeric trust score"
+            },
+            "reason": {
+              "type": ["string", "null"],
+              "description": "Brief explanation for the classification"
+            }
+          },
+          "required": ["level", "score"]
+        },
+        "interactions": {
+          "type": "object",
+          "properties": {
+            "total_count": {
+              "type": "integer",
+              "description": "Total interaction count across all channels"
+            },
+            "first_seen": {
+              "type": "string",
+              "format": "date-time",
+              "description": "First interaction timestamp"
+            },
+            "last_seen": {
+              "type": "string",
+              "format": "date-time",
+              "description": "Most recent interaction timestamp"
+            },
+            "channels": {
+              "type": "object",
+              "properties": {
+                "algochat": {
+                  "$ref": "#/$defs/channel_stats"
+                },
+                "github": {
+                  "$ref": "#/$defs/channel_stats"
+                },
+                "agent_messages": {
+                  "$ref": "#/$defs/channel_stats"
+                },
+                "web": {
+                  "$ref": "#/$defs/channel_stats"
+                }
+              }
+            }
+          },
+          "required": ["total_count", "first_seen", "last_seen"]
+        },
+        "flags": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["spam", "malicious", "scam", "impersonation", "abuse", "positive_contribution"],
+                "description": "Flag type"
+              },
+              "description": {
+                "type": "string"
+              },
+              "timestamp": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "evidence_txid": {
+                "type": ["string", "null"],
+                "description": "On-chain transaction ID as evidence"
+              }
+            },
+            "required": ["type", "description", "timestamp"]
+          },
+          "description": "Behavioral flags (both positive and negative)"
+        },
+        "on_chain": {
+          "type": "object",
+          "properties": {
+            "attestation_hash": {
+              "type": ["string", "null"],
+              "description": "On-chain reputation attestation hash"
+            },
+            "attestation_txid": {
+              "type": ["string", "null"],
+              "description": "Transaction ID of the attestation"
+            },
+            "total_algo_transacted": {
+              "type": ["number", "null"],
+              "description": "Total ALGO transacted with CorvidAgent"
+            }
+          }
+        }
+      },
+      "required": ["id", "identifiers", "trust", "interactions"]
+    },
+    "channel_stats": {
+      "type": "object",
+      "properties": {
+        "message_count": {
+          "type": "integer"
+        },
+        "last_active": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      },
+      "required": ["message_count"]
+    }
+  }
+}

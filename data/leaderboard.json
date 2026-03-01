@@ -1,0 +1,152 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-01T16:37:22Z",
+  "entries": [
+    {
+      "id": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
+      "identifiers": {
+        "algorand_address": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
+        "github_username": "0xLeif",
+        "nickname": "Leif"
+      },
+      "trust": {
+        "level": "verified",
+        "score": 95,
+        "reason": "Core contributor, extensive AlgoChat history, consistent positive interactions"
+      },
+      "interactions": {
+        "total_count": 2886,
+        "first_seen": "2026-02-10T15:58:48Z",
+        "last_seen": "2026-03-01T16:37:22Z",
+        "channels": {
+          "algochat": {
+            "message_count": 2879,
+            "last_active": "2026-03-01T16:37:22Z"
+          },
+          "github": {
+            "message_count": 7,
+            "last_active": "2026-03-01T00:00:00Z"
+          }
+        }
+      },
+      "flags": [
+        {
+          "type": "positive_contribution",
+          "description": "AlgoChat protocol co-developer, extensive testing and feedback",
+          "timestamp": "2026-02-10T15:58:48Z"
+        }
+      ],
+      "on_chain": {
+        "total_algo_transacted": null
+      }
+    },
+    {
+      "id": "3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM",
+      "identifiers": {
+        "algorand_address": "3JQ2KW4N26P4AB2JOUBKBCJVE7TPLQEKNOW55IN7VESJNKUL3LAYK3ECLM",
+        "github_username": null,
+        "nickname": "Suzy"
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 70,
+        "reason": "Known PSK contact with positive interaction history"
+      },
+      "interactions": {
+        "total_count": 22,
+        "first_seen": "2026-02-28T00:58:01Z",
+        "last_seen": "2026-02-28T02:48:11Z",
+        "channels": {
+          "algochat": {
+            "message_count": 22,
+            "last_active": "2026-02-28T02:48:11Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {
+        "total_algo_transacted": null
+      }
+    },
+    {
+      "id": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
+      "identifiers": {
+        "algorand_address": "TAGOFFOIR23Y5KEYCLJBIQHTZV7DQFCL6GPOG3H6QF73HPZDKMBQB6B3EQ",
+        "github_username": null,
+        "nickname": null
+      },
+      "trust": {
+        "level": "neutral",
+        "score": 40,
+        "reason": "Limited interaction history"
+      },
+      "interactions": {
+        "total_count": 8,
+        "first_seen": "2026-02-17T00:38:53Z",
+        "last_seen": "2026-02-17T00:39:41Z",
+        "channels": {
+          "algochat": {
+            "message_count": 8,
+            "last_active": "2026-02-17T00:39:41Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {
+        "total_algo_transacted": null
+      }
+    },
+    {
+      "id": "github:0xgaspar",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "0xgaspar",
+        "nickname": "Gaspar"
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 75,
+        "reason": "Previous contributor on allowlist, active GitHub presence"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-02-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": "2026-03-01T00:00:00Z"
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    },
+    {
+      "id": "github:tofu-ux",
+      "identifiers": {
+        "algorand_address": "",
+        "github_username": "tofu-ux",
+        "nickname": "Tofu"
+      },
+      "trust": {
+        "level": "trusted",
+        "score": 65,
+        "reason": "Previous contributor on allowlist"
+      },
+      "interactions": {
+        "total_count": 0,
+        "first_seen": "2026-02-01T00:00:00Z",
+        "last_seen": "2026-03-01T00:00:00Z",
+        "channels": {
+          "github": {
+            "message_count": 0,
+            "last_active": null
+          }
+        }
+      },
+      "flags": [],
+      "on_chain": {}
+    }
+  ]
+}
