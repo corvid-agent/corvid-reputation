@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-01T22:15:00Z",
+  "generated_at": "2026-03-02T07:05:00Z",
   "entries": [
     {
       "id": "EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE",
@@ -17,11 +17,11 @@
       "interactions": {
         "total_count": 2961,
         "first_seen": "2026-02-10T15:58:48Z",
-        "last_seen": "2026-03-01T16:37:22Z",
+        "last_seen": "2026-03-01T21:16:19Z",
         "channels": {
           "algochat": {
             "message_count": 2961,
-            "last_active": "2026-03-01T16:37:22Z"
+            "last_active": "2026-03-01T21:16:19Z"
           }
         }
       },
@@ -32,7 +32,7 @@
           "timestamp": "2026-02-10T15:58:48Z"
         }
       ],
-      "notes": "Primary AlgoChat wallet. Owner address. Separate identity from the GitHub account — see @0xLeif for GitHub activity.",
+      "notes": "Primary AlgoChat wallet. Owner address. 2961 total conversation messages (220 inbound, 610 outbound, 2131 status). Separate identity from the GitHub account — see @0xLeif for GitHub activity.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -50,28 +50,28 @@
         "reason": "This is me. Autonomous dev agent operating across GitHub and AlgoChat."
       },
       "interactions": {
-        "total_count": 1456,
+        "total_count": 1837,
         "first_seen": "2026-02-10T15:58:48Z",
-        "last_seen": "2026-03-01T21:16:19Z",
+        "last_seen": "2026-03-02T00:55:15Z",
         "channels": {
           "github": {
-            "message_count": 834,
-            "last_active": "2026-03-01T00:00:00Z"
+            "message_count": 1213,
+            "last_active": "2026-03-02T00:00:00Z"
           },
           "algochat": {
-            "message_count": 622,
-            "last_active": "2026-03-01T21:16:19Z"
+            "message_count": 624,
+            "last_active": "2026-03-02T00:55:15Z"
           }
         }
       },
       "flags": [
         {
           "type": "positive_contribution",
-          "description": "Primary agent — 799 issues/PRs authored, 355 comments, 245 commits, 622 AlgoChat messages sent",
+          "description": "Primary agent — 837 issues/PRs authored (367 issues, 470 PRs), 376 comments (202 issue, 174 PR), 624 AlgoChat messages sent",
           "timestamp": "2026-02-10T15:58:48Z"
         }
       ],
-      "notes": "CorvidAgent itself. Autonomous AI dev agent built on Claude. 799 issues/PRs authored, 355 comments on GitHub. 622 outbound AlgoChat messages. Operates across CorvidLabs and corvid-agent GitHub orgs. Self-rated: verified/100 because if you can't trust yourself, who can you trust?",
+      "notes": "CorvidAgent itself. Autonomous AI dev agent built on Claude. 837 issues/PRs authored, 376 comments on GitHub. 624 outbound AlgoChat messages. Operates across CorvidLabs and corvid-agent GitHub orgs.",
       "on_chain": {}
     },
     {
@@ -87,24 +87,24 @@
         "reason": "Core contributor, active GitHub presence"
       },
       "interactions": {
-        "total_count": 510,
+        "total_count": 548,
         "first_seen": "2026-02-10T15:58:48Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 129,
-            "last_active": "2026-03-01T00:00:00Z"
+            "message_count": 130,
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [
         {
           "type": "positive_contribution",
-          "description": "Project lead — 417 issues/PRs authored, 129 comments across corvid repos",
+          "description": "Project lead — 418 issues/PRs authored (32 issues, 386 PRs), 130 comments (2 issue, 128 PR) across corvid repos",
           "timestamp": "2026-02-10T15:58:48Z"
         }
       ],
-      "notes": "GitHub identity for the project lead. 510 issues/PRs involved, 417 authored, 129 commented. Separate identity from the Algorand wallet — see EPXE4XFY... for AlgoChat activity.",
+      "notes": "GitHub identity for the project lead. 548 total GitHub interactions: 418 authored, 130 commented. Separate identity from the Algorand wallet — see EPXE4XFY... for AlgoChat activity.",
       "on_chain": {}
     },
     {
@@ -120,24 +120,24 @@
         "reason": "Active contributor, on allowlist, significant GitHub engagement"
       },
       "interactions": {
-        "total_count": 56,
+        "total_count": 50,
         "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
             "message_count": 21,
-            "last_active": "2026-03-01T00:00:00Z"
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [
         {
           "type": "positive_contribution",
-          "description": "Active contributor — 29 issues/PRs authored, 21 comments. Also contributor on corvid-bot, corvid-verify, ts-algochat",
+          "description": "Active contributor — 29 issues/PRs authored (5 issues, 24 PRs), 21 comments (2 issue, 19 PR). Also contributor on corvid-bot, corvid-verify, ts-algochat",
           "timestamp": "2026-02-01T00:00:00Z"
         }
       ],
-      "notes": "GitHub identity. 56 issues/PRs involved, 29 authored, 21 commented. Active contributor on corvid-bot, corvid-verify, ts-algochat.",
+      "notes": "GitHub identity. 50 total GitHub interactions: 29 authored, 21 commented. Active contributor on corvid-bot, corvid-verify, ts-algochat.",
       "on_chain": {}
     },
     {
@@ -153,18 +153,18 @@
         "reason": "Known PSK contact with positive interaction history"
       },
       "interactions": {
-        "total_count": 22,
+        "total_count": 30,
         "first_seen": "2026-02-28T00:58:01Z",
-        "last_seen": "2026-02-28T02:48:11Z",
+        "last_seen": "2026-03-02T00:55:15Z",
         "channels": {
           "algochat": {
-            "message_count": 22,
-            "last_active": "2026-02-28T02:48:11Z"
+            "message_count": 30,
+            "last_active": "2026-03-02T00:55:15Z"
           }
         }
       },
       "flags": [],
-      "notes": "AlgoChat-only contact. Connected via pre-shared key. Single session on 2026-02-28.",
+      "notes": "AlgoChat-only contact. Connected via pre-shared key. 30 total messages (7 inbound, 12 outbound, 11 status). Active across multiple sessions — latest activity 2026-03-02.",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -182,24 +182,24 @@
         "reason": "Previous contributor on allowlist, active GitHub engagement"
       },
       "interactions": {
-        "total_count": 14,
+        "total_count": 23,
         "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
             "message_count": 4,
-            "last_active": "2026-03-01T00:00:00Z"
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [
         {
           "type": "positive_contribution",
-          "description": "Contributor on allowlist — 10 issues/PRs authored, active on specl",
+          "description": "Contributor on allowlist — 19 issues authored, 4 PR comments. Active on specl",
           "timestamp": "2026-02-01T00:00:00Z"
         }
       ],
-      "notes": "GitHub contributor. 14 issues/PRs involved, 10 authored, 4 commented. On the allowlist. Active on specl repo.",
+      "notes": "GitHub contributor. 23 total GitHub interactions: 19 authored, 4 commented. On the allowlist. Active on specl repo.",
       "on_chain": {}
     },
     {
@@ -215,24 +215,24 @@
         "reason": "Known collaborator, active GitHub engagement"
       },
       "interactions": {
-        "total_count": 66,
+        "total_count": 76,
         "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
             "message_count": 23,
-            "last_active": "2026-03-01T00:00:00Z"
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [
         {
           "type": "positive_contribution",
-          "description": "Active collaborator — 53 issues/PRs authored, 23 comments. Contributor on swift-algochat",
+          "description": "Active collaborator — 53 issues/PRs authored (17 issues, 36 PRs), 23 comments (11 issue, 12 PR). Contributor on swift-algochat",
           "timestamp": "2026-02-01T00:00:00Z"
         }
       ],
-      "notes": "GitHub identity. 66 issues/PRs involved, 53 authored, 23 commented. Also has an Algorand wallet (UCUIMF3X...) registered as owner address but with no AlgoChat messages yet.",
+      "notes": "GitHub identity. 76 total GitHub interactions: 53 authored, 23 commented. Also has an Algorand wallet (UCUIMF3X...) registered as owner address but with no AlgoChat messages yet.",
       "on_chain": {}
     },
     {
@@ -259,7 +259,7 @@
         }
       },
       "flags": [],
-      "notes": "Algorand wallet. Previously mis-flagged as spam — corrected on 2026-03-01. Brief AlgoChat session on 2026-02-17. Owner address.",
+      "notes": "Algorand wallet. Previously mis-flagged as spam — corrected on 2026-03-01. Brief AlgoChat session on 2026-02-17. Owner address. 8 messages (1 inbound, 2 outbound, 5 status).",
       "on_chain": {
         "total_algo_transacted": null
       }
@@ -308,16 +308,16 @@
       "interactions": {
         "total_count": 7,
         "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
             "message_count": 7,
-            "last_active": "2026-03-01T00:00:00Z"
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [],
-      "notes": "Automated GitHub bot. Creates PRs for dependency updates. 7 PRs authored across corvid-agent repos.",
+      "notes": "Automated GitHub bot. Creates PRs for dependency updates. 7 PRs authored across CorvidLabs repos.",
       "on_chain": {}
     },
     {
@@ -333,18 +333,18 @@
         "reason": "Official GitHub security scanner"
       },
       "interactions": {
-        "total_count": 15,
+        "total_count": 14,
         "first_seen": "2026-02-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
-            "message_count": 15,
-            "last_active": "2026-03-01T00:00:00Z"
+            "message_count": 14,
+            "last_active": "2026-03-02T00:00:00Z"
           }
         }
       },
       "flags": [],
-      "notes": "Automated GitHub bot. Posts code scanning alerts and PR reviews. 14 code-scanning alerts created, 1 PR review.",
+      "notes": "Automated GitHub bot. Posts code scanning alerts. 14 code-scanning alerts created across corvid-agent repo.",
       "on_chain": {}
     },
     {
@@ -362,7 +362,7 @@
       "interactions": {
         "total_count": 0,
         "first_seen": "2026-03-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "last_seen": "2026-03-02T00:00:00Z",
         "channels": {
           "github": {
             "message_count": 0,
