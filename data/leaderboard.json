@@ -382,29 +382,29 @@
         "nickname": null
       },
       "trust": {
-        "level": "blocked",
-        "score": 0,
-        "reason": "Blocked on GitHub. New account (Jan 2026), crypto-themed name, single low-quality interaction"
+        "level": "suspicious",
+        "score": 25,
+        "reason": "New account (Jan 2026), single interaction. Comment on #304 was relevant (on-chain credential verification) but promoted own product (InsumerAPI). Keeping as suspicious until more interactions establish a pattern."
       },
       "interactions": {
         "total_count": 1,
-        "first_seen": "2026-03-01T00:00:00Z",
-        "last_seen": "2026-03-01T00:00:00Z",
+        "first_seen": "2026-02-27T12:31:03Z",
+        "last_seen": "2026-02-27T12:31:03Z",
         "channels": {
           "github": {
             "message_count": 1,
-            "last_active": "2026-03-01T00:00:00Z"
+            "last_active": "2026-02-27T12:31:03Z"
           }
         }
       },
       "flags": [
         {
-          "type": "spam",
-          "description": "Blocked on GitHub — new account, crypto-themed name, low-quality engagement",
-          "timestamp": "2026-03-01T00:00:00Z"
+          "type": "review_needed",
+          "description": "Commented on #304 with relevant on-chain credential suggestion, but included self-promotion for InsumerAPI. Bio advertises InsumerAPI with MCP/LangChain integrations. Could be genuine contributor or targeted marketing — comment was technically relevant, not spam.",
+          "timestamp": "2026-02-27T12:31:03Z"
         }
       ],
-      "notes": "Blocked on GitHub. Account created Jan 2026. Only 1 interaction across corvid repos. Crypto-themed username, low-quality engagement.",
+      "notes": "GitHub identity. Account created Jan 2026, bio: 'Building InsumerAPI — cryptographic proof of on-chain state.' 14 public repos, 3 followers. Single interaction: commented on corvid-agent #304 with relevant suggestion about on-chain credential verification, but promoted own product. Previously wrongly blocked — corrected to suspicious pending more interactions.",
       "on_chain": {}
     }
   ]

@@ -13,7 +13,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | 🟢 Verified | 2 |
 | 🔵 Trusted | 5 |
 | ⚪ Neutral | 5 |
-| 🔴 Blocked | 1 |
+| 🟡 Suspicious | 1 |
 
 ---
 
@@ -33,7 +33,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 7 | 2026-03-01 | — |
 | 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 15 | 2026-03-01 | — |
 | 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 13 | `@douglasborthwick-crypto` | 🔴 Blocked | 0/100 | 1 | 2026-03-01 | 🚫 spam |
+| 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-27 | ❓ review_needed |
 
 ---
 
@@ -160,13 +160,13 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 ### @douglasborthwick-crypto
 
 - **Address:** `@douglasborthwick-crypto`
-- **Trust:** 🔴 Blocked (0/100)
-- **Reason:** Blocked on GitHub. New account (Jan 2026), crypto-themed name, single low-quality interaction
+- **Trust:** 🟡 Suspicious (25/100)
+- **Reason:** New account (Jan 2026), single interaction. Comment on #304 was relevant (on-chain credential verification) but promoted own product (InsumerAPI). Keeping as suspicious until more interactions establish a pattern.
 - **Interactions:** 1 total
-- **Active:** 2026-03-01 → 2026-03-01
+- **Active:** 2026-02-27 → 2026-02-27
 - **Channels:** GitHub: 1
 - **Flags:**
-  - 🚫 Blocked on GitHub — new account, crypto-themed name, low-quality engagement (2026-03-01)
+  - ❓ Commented on #304 with relevant on-chain credential suggestion, but included self-promotion for InsumerAPI. Bio advertises InsumerAPI with MCP/LangChain integrations. Could be genuine contributor or targeted marketing — comment was technically relevant, not spam. (2026-02-27)
 
 ---
 
