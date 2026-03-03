@@ -21,9 +21,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 1961 | 2026-03-03 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 1987 | 2026-03-03 | ⭐ positive_contribution |
 | 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 548 | 2026-03-03 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 550 | 2026-03-03 | ⭐ positive_contribution |
 | 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 50 | 2026-03-03 | ⭐ positive_contribution |
 | 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
 | 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-03 | ⭐ positive_contribution |
@@ -44,11 +44,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 1961 total
+- **Interactions:** 1987 total
 - **Active:** 2026-02-10 → 2026-03-03
-- **Channels:** AlgoChat: 624 · GitHub: 1337
+- **Channels:** AlgoChat: 624 · GitHub: 1363
 - **Flags:**
-  - ⭐ Primary agent — 929 issues/PRs authored (439 issues, 490 PRs), 408 comments, 624 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 954 issues/PRs authored (457 issues, 497 PRs), 409 comments, 624 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
@@ -66,11 +66,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@0xLeif`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Core contributor, active GitHub presence
-- **Interactions:** 548 total
+- **Interactions:** 550 total
 - **Active:** 2026-02-10 → 2026-03-03
-- **Channels:** GitHub: 130
+- **Channels:** GitHub: 132
 - **Flags:**
-  - ⭐ Project lead — 418 issues/PRs authored (32 issues, 386 PRs), 130 comments (2 issue, 128 PR) across corvid repos (2026-02-10)
+  - ⭐ Project lead — 418 issues/PRs authored (32 issues, 386 PRs), 132 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
 
 ### @0xGaspar
 
