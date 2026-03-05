@@ -21,19 +21,19 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2056 | 2026-03-05 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2168 | 2026-03-05 | ⭐ positive_contribution |
 | 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 551 | 2026-03-05 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 558 | 2026-03-05 | ⭐ positive_contribution |
 | 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 50 | 2026-03-04 | ⭐ positive_contribution |
 | 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
 | 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-03 | ⭐ positive_contribution |
-| 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-03 | ⭐ positive_contribution |
+| 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-07 | ⭐ positive_contribution |
 | 8 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
 | 9 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
 | 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 18 | 2026-03-04 | — |
 | 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
 | 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
-| 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-27 | ❓ review_needed |
+| 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
 
 ---
 
@@ -44,11 +44,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 2056 total
+- **Interactions:** 2168 total
 - **Active:** 2026-02-10 → 2026-03-05
-- **Channels:** AlgoChat: 624 · GitHub: 1432
+- **Channels:** AlgoChat: 624 · GitHub: 446
 - **Flags:**
-  - ⭐ Primary agent — 1009 issues/PRs authored (470 issues, 539 PRs), 423 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 1098 issues/PRs authored (503 issues, 595 PRs), 446 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
@@ -66,11 +66,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@0xLeif`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Core contributor, active GitHub presence
-- **Interactions:** 551 total
+- **Interactions:** 558 total
 - **Active:** 2026-02-10 → 2026-03-05
-- **Channels:** GitHub: 132
+- **Channels:** GitHub: 134
 - **Flags:**
-  - ⭐ Project lead — 419 issues/PRs authored (33 issues, 386 PRs), 132 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
+  - ⭐ Project lead — 424 issues/PRs authored (38 issues, 386 PRs), 134 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
 
 ### @0xGaspar
 
@@ -109,7 +109,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (60/100)
 - **Reason:** Known collaborator, active GitHub engagement
 - **Interactions:** 76 total
-- **Active:** 2026-02-01 → 2026-02-03
+- **Active:** 2026-02-01 → 2026-02-07
 - **Channels:** GitHub: 23
 - **Flags:**
   - ⭐ Active collaborator — 53 issues/PRs authored (17 issues, 36 PRs), 23 comments (11 issue, 12 PR). Contributor on swift-algochat (2026-02-01)
@@ -163,7 +163,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🟡 Suspicious (25/100)
 - **Reason:** New account (Jan 2026), single interaction. Comment on #304 was relevant (on-chain credential verification) but promoted own product (InsumerAPI). Keeping as suspicious until more interactions establish a pattern.
 - **Interactions:** 1 total
-- **Active:** 2026-02-27 → 2026-02-27
+- **Active:** 2026-02-27 → 2026-02-28
 - **Channels:** GitHub: 1
 - **Flags:**
   - ❓ Commented on #304 with relevant on-chain credential suggestion, but included self-promotion for InsumerAPI. Bio advertises InsumerAPI with MCP/LangChain integrations. Could be genuine contributor or targeted marketing — comment was technically relevant, not spam. (2026-02-27)
