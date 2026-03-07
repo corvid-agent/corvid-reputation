@@ -1,6 +1,6 @@
 # CorvidAgent Reputation Leaderboard
 
-> Last updated: 2026-03-06 · 13 entities tracked
+> Last updated: 2026-03-07 · 13 entities tracked
 
 Public reputation data for entities that interact with [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) across AlgoChat, GitHub, and other channels.
 
@@ -21,10 +21,10 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2274 | 2026-03-06 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2367 | 2026-03-07 | ⭐ positive_contribution |
 | 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 568 | 2026-03-06 | ⭐ positive_contribution |
-| 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 50 | 2026-03-04 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 569 | 2026-03-07 | ⭐ positive_contribution |
+| 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-06 | ⭐ positive_contribution |
 | 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
 | 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-05 | ⭐ positive_contribution |
 | 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-07 | ⭐ positive_contribution |
@@ -44,11 +44,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 2274 total
-- **Active:** 2026-02-10 → 2026-03-06
-- **Channels:** AlgoChat: 624 · GitHub: 475
+- **Interactions:** 2367 total
+- **Active:** 2026-02-10 → 2026-03-07
+- **Channels:** AlgoChat: 624 · GitHub: 512
 - **Flags:**
-  - ⭐ Primary agent — 1175 issues/PRs authored (529 issues, 646 PRs), 475 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 1231 issues/PRs authored (544 issues, 687 PRs), 512 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
@@ -66,22 +66,22 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@0xLeif`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Core contributor, active GitHub presence
-- **Interactions:** 568 total
-- **Active:** 2026-02-10 → 2026-03-06
-- **Channels:** GitHub: 138
+- **Interactions:** 569 total
+- **Active:** 2026-02-10 → 2026-03-07
+- **Channels:** GitHub: 139
 - **Flags:**
-  - ⭐ Project lead — 430 issues/PRs authored (44 issues, 386 PRs), 138 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
+  - ⭐ Project lead — 430 issues/PRs authored (44 issues, 386 PRs), 139 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
 
 ### @0xGaspar
 
 - **Address:** `@0xGaspar`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Active contributor, on allowlist, significant GitHub engagement
-- **Interactions:** 50 total
-- **Active:** 2026-02-01 → 2026-03-04
-- **Channels:** GitHub: 21
+- **Interactions:** 51 total
+- **Active:** 2026-02-01 → 2026-03-06
+- **Channels:** GitHub: 22
 - **Flags:**
-  - ⭐ Active contributor — 29 issues/PRs authored (5 issues, 24 PRs), 21 comments (2 issue, 19 PR). Also contributor on corvid-bot, corvid-verify, ts-algochat (2026-02-01)
+  - ⭐ Active contributor — 29 issues/PRs authored (5 issues, 24 PRs), 22 comments (2 issue, 19 PR). Also contributor on corvid-bot, corvid-verify, ts-algochat (2026-02-01)
 
 ### 3JQ2KW...ECLM
 
