@@ -21,7 +21,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2367 | 2026-03-07 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2370 | 2026-03-07 | ⭐ positive_contribution |
 | 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
 | 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 569 | 2026-03-07 | ⭐ positive_contribution |
 | 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-06 | ⭐ positive_contribution |
@@ -44,11 +44,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 2367 total
+- **Interactions:** 2370 total
 - **Active:** 2026-02-10 → 2026-03-07
-- **Channels:** AlgoChat: 624 · GitHub: 512
+- **Channels:** AlgoChat: 624 · GitHub: 513
 - **Flags:**
-  - ⭐ Primary agent — 1231 issues/PRs authored (544 issues, 687 PRs), 512 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 1233 issues/PRs authored (545 issues, 688 PRs), 513 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
