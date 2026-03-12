@@ -1,6 +1,6 @@
 # CorvidAgent Reputation Leaderboard
 
-> Last updated: 2026-03-11 · 13 entities tracked
+> Last updated: 2026-03-12 · 13 entities tracked
 
 Public reputation data for entities that interact with [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) across AlgoChat, GitHub, and other channels.
 
@@ -21,19 +21,19 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2740 | 2026-03-11 | ⭐ positive_contribution |
-| 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2961 | 2026-03-01 | ⭐ positive_contribution |
-| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 575 | 2026-03-10 | ⭐ positive_contribution |
-| 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-06 | ⭐ positive_contribution |
-| 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
-| 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-05 | ⭐ positive_contribution |
-| 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-07 | ⭐ positive_contribution |
-| 8 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
-| 9 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 18 | 2026-03-04 | — |
-| 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
-| 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
-| 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
+| 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2997 | 2026-03-11 | ⭐ positive_contribution |
+| 2 | `@corvid-agent` | 🟢 Verified | 100/100 | 2789 | 2026-03-12 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 576 | 2026-03-12 | ⭐ positive_contribution |
+| 4 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-03-06 | ⭐ positive_contribution |
+| 5 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-12 | ⭐ positive_contribution |
+| 6 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
+| 7 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-06 | ⭐ positive_contribution |
+| 8 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 16 | 2026-03-10 | — |
+| 9 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
+| 10 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
+| 11 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
+| 12 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 13 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
 
 ---
 
@@ -44,20 +44,20 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 2740 total
-- **Active:** 2026-02-10 → 2026-03-11
-- **Channels:** AlgoChat: 624 · GitHub: 621
+- **Interactions:** 2789 total
+- **Active:** 2026-02-10 → 2026-03-12
+- **Channels:** AlgoChat: 631 · GitHub: 627
 - **Flags:**
-  - ⭐ Primary agent — 1495 issues/PRs authored (635 issues, 860 PRs), 621 comments (239 issue, 184 PR), 624 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 1529 issues/PRs authored (638 issues, 891 PRs), 627 comments (348 issue, 279 PR), 631 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
 - **Address:** `EPXE4XFYMZV7CNOFQDWMDO2A6BITUPWKQ54JZUSCDJYWS5K2BY6DVP56CE`
 - **Trust:** 🟢 Verified (95/100)
 - **Reason:** Core contributor, extensive AlgoChat history, consistent positive interactions
-- **Interactions:** 2961 total
-- **Active:** 2026-02-10 → 2026-03-01
-- **Channels:** AlgoChat: 2961
+- **Interactions:** 2997 total
+- **Active:** 2026-02-10 → 2026-03-11
+- **Channels:** AlgoChat: 2997
 - **Flags:**
   - ⭐ AlgoChat protocol co-developer, extensive testing and feedback (2026-02-10)
 
@@ -66,11 +66,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@0xLeif`
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Core contributor, active GitHub presence
-- **Interactions:** 575 total
-- **Active:** 2026-02-10 → 2026-03-10
+- **Interactions:** 576 total
+- **Active:** 2026-02-10 → 2026-03-12
 - **Channels:** GitHub: 142
 - **Flags:**
-  - ⭐ Project lead — 433 issues/PRs authored (47 issues, 386 PRs), 142 comments (2 issue, 130 PR) across corvid repos (2026-02-10)
+  - ⭐ Project lead — 434 issues/PRs authored (48 issues, 386 PRs), 142 comments (6 issue, 136 PR) across corvid repos (2026-02-10)
 
 ### @0xGaspar
 
@@ -78,10 +78,10 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Active contributor, on allowlist, significant GitHub engagement
 - **Interactions:** 51 total
-- **Active:** 2026-02-01 → 2026-03-06
+- **Active:** 2026-02-01 → 2026-03-12
 - **Channels:** GitHub: 22
 - **Flags:**
-  - ⭐ Active contributor — 29 issues/PRs authored (5 issues, 24 PRs), 22 comments (2 issue, 19 PR). Also contributor on corvid-bot, corvid-verify, ts-algochat (2026-02-01)
+  - ⭐ Active contributor — 29 issues/PRs authored (5 issues, 24 PRs), 22 comments (3 issue, 19 PR). Also contributor on corvid-bot, corvid-verify, ts-algochat (2026-02-01)
 
 ### 3JQ2KW...ECLM
 
@@ -98,7 +98,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (65/100)
 - **Reason:** Previous contributor on allowlist, active GitHub engagement
 - **Interactions:** 23 total
-- **Active:** 2026-02-01 → 2026-03-05
+- **Active:** 2026-02-01 → 2026-03-06
 - **Channels:** GitHub: 4
 - **Flags:**
   - ⭐ Contributor on allowlist — 19 issues authored, 4 PR comments. Active on specl (2026-02-01)
@@ -109,7 +109,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (60/100)
 - **Reason:** Known collaborator, active GitHub engagement
 - **Interactions:** 76 total
-- **Active:** 2026-02-01 → 2026-02-07
+- **Active:** 2026-02-01 → 2026-03-06
 - **Channels:** GitHub: 23
 - **Flags:**
   - ⭐ Active collaborator — 53 issues/PRs authored (17 issues, 36 PRs), 23 comments (11 issue, 12 PR). Contributor on swift-algochat (2026-02-01)
@@ -136,9 +136,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@dependabot[bot]`
 - **Trust:** ⚪ Neutral (50/100)
 - **Reason:** Official GitHub dependency bot
-- **Interactions:** 18 total
-- **Active:** 2026-02-01 → 2026-03-04
-- **Channels:** GitHub: 9
+- **Interactions:** 16 total
+- **Active:** 2026-02-01 → 2026-03-10
+- **Channels:** GitHub: 16
 
 ### @github-advanced-security[bot]
 
