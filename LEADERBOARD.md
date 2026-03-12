@@ -21,19 +21,19 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2997 | 2026-03-11 | ⭐ positive_contribution |
-| 2 | `@corvid-agent` | 🟢 Verified | 100/100 | 2789 | 2026-03-12 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 2789 | 2026-03-12 | ⭐ positive_contribution |
+| 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 2997 | 2026-03-11 | ⭐ positive_contribution |
 | 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 576 | 2026-03-12 | ⭐ positive_contribution |
-| 4 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-03-06 | ⭐ positive_contribution |
-| 5 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-12 | ⭐ positive_contribution |
-| 6 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
-| 7 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-06 | ⭐ positive_contribution |
-| 8 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 16 | 2026-03-10 | — |
-| 9 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
-| 10 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
-| 11 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
-| 12 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
-| 13 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
+| 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-12 | ⭐ positive_contribution |
+| 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
+| 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-05 | ⭐ positive_contribution |
+| 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-07 | ⭐ positive_contribution |
+| 8 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
+| 9 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 16 | 2026-03-10 | — |
+| 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
+| 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
+| 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
 
 ---
 
@@ -98,7 +98,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (65/100)
 - **Reason:** Previous contributor on allowlist, active GitHub engagement
 - **Interactions:** 23 total
-- **Active:** 2026-02-01 → 2026-03-06
+- **Active:** 2026-02-01 → 2026-03-05
 - **Channels:** GitHub: 4
 - **Flags:**
   - ⭐ Contributor on allowlist — 19 issues authored, 4 PR comments. Active on specl (2026-02-01)
@@ -109,7 +109,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (60/100)
 - **Reason:** Known collaborator, active GitHub engagement
 - **Interactions:** 76 total
-- **Active:** 2026-02-01 → 2026-03-06
+- **Active:** 2026-02-01 → 2026-02-07
 - **Channels:** GitHub: 23
 - **Flags:**
   - ⭐ Active collaborator — 53 issues/PRs authored (17 issues, 36 PRs), 23 comments (11 issue, 12 PR). Contributor on swift-algochat (2026-02-01)
