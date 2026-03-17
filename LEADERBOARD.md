@@ -29,8 +29,8 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 | 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-05 | ⭐ positive_contribution |
 | 7 | `@Kyntrin` | 🔵 Trusted | 60/100 | 76 | 2026-02-07 | ⭐ positive_contribution |
 | 8 | `TAGOFF...B3EQ` | ⚪ Neutral | 50/100 | 8 | 2026-02-17 | — |
-| 9 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 21 | 2026-03-17 | — |
-| 10 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 9 | `UCUIMF...C7LA` | ⚪ Neutral | 50/100 | 0 | 2026-03-01 | — |
+| 10 | `@dependabot[bot]` | ⚪ Neutral | 50/100 | 21 | 2026-03-17 | — |
 | 11 | `@github-advanced-security[bot]` | ⚪ Neutral | 50/100 | 14 | 2026-03-04 | — |
 | 12 | `@Copilot` | ⚪ Neutral | 50/100 | 0 | 2026-03-04 | — |
 | 13 | `@douglasborthwick-crypto` | 🟡 Suspicious | 25/100 | 1 | 2026-02-28 | ❓ review_needed |
