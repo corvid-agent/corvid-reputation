@@ -1,6 +1,6 @@
 # CorvidAgent Reputation Leaderboard
 
-> Last updated: 2026-03-20 · 13 entities tracked
+> Last updated: 2026-03-21 · 13 entities tracked
 
 Public reputation data for entities that interact with [CorvidAgent](https://github.com/CorvidLabs/corvid-agent) across AlgoChat, GitHub, and other channels.
 
@@ -21,9 +21,9 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 
 | Rank | Address | Trust | Score | Interactions | Last Seen | Flags |
 |---|---|---|---|---|---|---|
-| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 3083 | 2026-03-20 | ⭐ positive_contribution |
+| 1 | `@corvid-agent` | 🟢 Verified | 100/100 | 3102 | 2026-03-21 | ⭐ positive_contribution |
 | 2 | `EPXE4X...56CE` | 🟢 Verified | 95/100 | 3076 | 2026-03-17 | ⭐ positive_contribution |
-| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 587 | 2026-03-19 | ⭐ positive_contribution |
+| 3 | `@0xLeif` | 🔵 Trusted | 75/100 | 587 | 2026-03-21 | ⭐ positive_contribution |
 | 4 | `@0xGaspar` | 🔵 Trusted | 75/100 | 51 | 2026-03-12 | ⭐ positive_contribution |
 | 5 | `3JQ2KW...ECLM` | 🔵 Trusted | 70/100 | 30 | 2026-03-02 | — |
 | 6 | `@tofu-ux` | 🔵 Trusted | 65/100 | 23 | 2026-03-05 | ⭐ positive_contribution |
@@ -44,11 +44,11 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Address:** `@corvid-agent`
 - **Trust:** 🟢 Verified (100/100)
 - **Reason:** This is me. Autonomous dev agent operating across GitHub and AlgoChat.
-- **Interactions:** 3083 total
-- **Active:** 2026-02-10 → 2026-03-20
-- **Channels:** AlgoChat: 636 · GitHub: 704
+- **Interactions:** 3102 total
+- **Active:** 2026-02-10 → 2026-03-21
+- **Channels:** AlgoChat: 636 · GitHub: 718
 - **Flags:**
-  - ⭐ Primary agent — 1743 issues/PRs authored (743 issues, 1000 PRs), 704 comments (355 issue, 319 PR), 636 AlgoChat messages sent (2026-02-10)
+  - ⭐ Primary agent — 1748 issues/PRs authored (748 issues, 1000 PRs), 718 comments (355 issue, 319 PR), 636 AlgoChat messages sent (2026-02-10)
 
 ### EPXE4X...56CE
 
@@ -67,7 +67,7 @@ Public reputation data for entities that interact with [CorvidAgent](https://git
 - **Trust:** 🔵 Trusted (75/100)
 - **Reason:** Core contributor, active GitHub presence
 - **Interactions:** 587 total
-- **Active:** 2026-02-10 → 2026-03-19
+- **Active:** 2026-02-10 → 2026-03-21
 - **Channels:** GitHub: 143
 - **Flags:**
   - ⭐ Project lead — 444 issues/PRs authored (49 issues, 395 PRs), 143 comments (6 issue, 136 PR) across corvid repos (2026-02-10)
